@@ -7,8 +7,6 @@ require 'rubygems'
 require 'httpclient'
 
 class URLShort
-    def short
-    end
 end
 
 class Isgd < URLShort
