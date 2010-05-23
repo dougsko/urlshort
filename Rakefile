@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "urlshort"
-    gem.summary = %Q{Shortens URLs}
-    gem.description = %Q{Shortens URL}
+    gem.summary = %Q{Makes URLs short using services like is.gd and TinyUrl.}
+    gem.description = %Q{Makes URLs short using services like is.gd and TinyUrl.}
     gem.email = "dougtko@gmail.com"
     gem.homepage = "http://github.com/dougsko/urlshort"
     gem.authors = ["Doug P."]
