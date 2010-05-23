@@ -1,6 +1,6 @@
 = urlshort
 
-Description goes here.
+Makes URLs short using services like is.gd and TinyUrl.
 
 == Note on Patches/Pull Requests
  
