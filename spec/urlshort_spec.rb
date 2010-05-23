@@ -1,7 +1,10 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
-describe "Urlshort" do
-  it "tests is.gd" do
-      Isgd.new.short('google.com').should match(/is.gd\/\w+/)
-  end
+describe "UrlShort" do
+    it "tests is.gd" do
+        UrlShort::IsGd.shorten('google.com').should match "http://is.gd/cl7x1"
+    end
+
+    it "tests rubyurl" do
+
 end
