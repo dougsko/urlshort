@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "urlshort"
   gem.homepage = "http://github.com/dougsko/urlshort"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Gem for shortening URLs}
+  gem.description = %Q{Gem for shortening URLs}
   gem.email = "dougtko@gmail.com"
   gem.authors = ["Doug P."]
   # dependencies defined in Gemfile
