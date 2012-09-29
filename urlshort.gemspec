@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Doug P."]
   s.date = "2012-09-29"
-  s.description = "TODO: longer description of your gem"
+  s.description = "Gem for shortening URLs"
   s.email = "dougtko@gmail.com"
   s.executables = ["isgd", "vgd"]
   s.extra_rdoc_files = [
@@ -36,13 +36,14 @@ Gem::Specification.new do |s|
     "spec/spec_helper.rb",
     "spec/urlshort_spec.rb",
     "spec_helper.rb",
+    "urlshort.gemspec",
     "urlshort_spec.rb"
   ]
   s.homepage = "http://github.com/dougsko/urlshort"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.10"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "Gem for shortening URLs"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
