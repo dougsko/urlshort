@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require 'urlshort'
+
+res = IsGd.shorten(ARGV[0])
+if(res == 1)
+    exit 1
+else
+    puts res
+end
